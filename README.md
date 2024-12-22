@@ -1,109 +1,104 @@
-Markdown formatında çevirip, görselleri de ekleyeceğim.
+
 
 # Finder App 💕
 
-Finder, bir arkadaşlık uygulaması için tasarlanmış, kullanıcı dostu 🖥️ ve modern 🌟 bir arayüzdür. Kullanıcılara detaylı profil bilgisi ekleme 👤, anlamlı konuşmalar başlatma 💬 ve yeni insanlarla tanışma 🌍 imkanı sunar. Flutter framework'ü 🐦 kullanılarak geliştirilen uygulama, mobil cihazlarda 📱 akıcı ve görsel açıdan çekici bir deneyim sunar. Uygulamanın şu anda işlevsel bir kullanıcı arayüzü prototipi ⚙️ olduğunu ve henüz backend işlevselliği veya gelişmiş özellikleri içermediğini belirtmek önemlidir.
+Finder is a highly engaging, user-friendly 🖥️, and modern 🌟 interface designed for a dating app 💌. It provides a delightful way for users to add detailed profile information 👤, initiate meaningful conversations 💬, and connect with new and interesting people 🌍. Developed using the robust Flutter framework 🐦, it guarantees a smooth and visually appealing experience on mobile devices 📱. It is important to note that the app is currently a functional user interface prototype ⚙️ and does not yet include backend functionality or advanced features.
 
-## Temel Özellikler 🌟
+## Key Features 🌟
 
-* **Profil Özelleştirme 👤**: Kullanıcılar isim, yaş 🎂, konum 📍, hobiler, ilgi alanları ❤️ ve kişisel açıklamalar ✍️ ekleyerek kendilerini daha iyi ifade edebilirler.
-* **Mesajlaşma 💬**: Potansiyel eşleşmeler veya arkadaşlarla basit ve sezgisel bir sohbet arayüzünde birebir metin tabanlı konuşmalar 📨 yapabilirsiniz.
-* **Favoriler ⭐ ve Okunmamış Mesajlar 📩**: Düzenli ve yanıt verebilir olmak için favori konuşmalarınız ve okunmamış mesajlarınız 📥 arasında kolayca geçiş yapabilirsiniz.
-* **Eşleşme Sistemi 💖**: Diğer kullanıcıların profillerine göz atın, beğenmeye 👍 veya geçmeye ⏩ karar verin ve potansiyel bağlantılarla etkileşim kurarken sorunsuz bir deneyim yaşayın.
+* **Profile Customization 👤**: Users can create a personal profile by adding or editing their name, age 🎂, location 📍, hobbies, interests ❤️, and personal descriptions ✍️ to express themselves better.
+* **Messaging 💬**: Engage in one-on-one text-based conversations 📨 with potential matches or friends in a simple and intuitive chat interface.
+* **Favorites ⭐ and Unread Messages 📩**: Easily switch between your favorite conversations and unread messages 📥 to stay organized and responsive.
+* **Matching System 💖**: Browse profiles of other users, decide whether to like 👍 or skip ⏩, and enjoy a seamless experience while interacting with potential connections.
 
-## Görsel Genel Bakış 🖼️
+## Visual Overview 🖼️
 
-Uygulamanın daha iyi görselleştirilmesi için ekran görüntüleri 📸 aşağıdadır:
+Below are the screenshots 📸 of the app for better visualization:
 
-1. **Açılış Ekranı 🌟**: Kullanıcıları uygulamaya hoş geldiniz animasyonu ile karşılar.
+<div style="display: flex; justify-content: space-between;">
+    <img src="assets/screenshots/1.png" width="250" alt="Splash Screen" />
+    <img src="assets/screenshots/2.png" width="250" alt="Profile Editing Screen" />
+    <img src="assets/screenshots/3.png" width="250" alt="Messages Screen" />
+</div>
 
-![Splash Screen](assets/screenshots/1.png)
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <img src="assets/screenshots/4.png" width="250" alt="Chat Screen" />
+    <img src="assets/screenshots/5.png" width="250" alt="Female Profile" />
+    <img src="assets/screenshots/6.png" width="250" alt="Matching Screen" />
+</div>
 
-2. **Profil Düzenleme Ekranı 📝**: Profil detaylarını kolayca düzenleyin ve güncelleyin.
+1. **Splash Screen 🌟**: A welcoming animation to introduce users to the app.
+2. **Profile Editing Screen 📝**: Edit and update profile details with ease.
+3. **Messages Screen 💌**: Manage all your conversations in a centralized hub.
+4. **Chat Screen 💬**: Engage in live conversations with your matches.
+5. **Matching Screen - Female Profile 👩**: Explore user profiles and initiate connections.
+6. **Matching Screen - Male Profile 👨**: View profiles and express interest.
 
-![Profile Editing Screen](assets/screenshots/2.png)
+## How to Set Up 🛠️
 
-3. **Mesajlar Ekranı 💌**: Tüm konuşmalarınızı merkezi bir merkezde yönetin.
+Setting up Finder App is simple. Follow these steps 📝 to get started and run 🏃‍♂️ the project on your device:
 
-![Messages Screen](assets/screenshots/3.png)
-
-4. **Sohbet Ekranı 💬**: Eşleşmelerinizle canlı sohbetler yapın.
-
-![Chat Screen](assets/screenshots/4.png)
-
-5. **Eşleşme Ekranı - Kadın Profili 👩**: Kullanıcı profillerini keşfedin ve bağlantılar kurun.
-
-![Female Profile](assets/screenshots/5.png)
-
-6. **Eşleşme Ekranı - Erkek Profili 👨**: Profilleri görüntüleyin ve ilginizi gösterin.
-
-![Male Profile](assets/screenshots/6.png)
-
-## Kurulum 🛠️
-
-Finder App'i kurmak basittir. Projeyi cihazınızda çalıştırmak 🏃‍♂️ için şu adımları 📝 izleyin:
-
-1. **Depoyu Klonlayın 🔄**:
+1. **Clone the Repository 🔄**:
 
 ```
 git clone <repo-url>
 cd finder-app
 ```
 
-2. **Bağımlılıkları Yükleyin 📦**: Gerekli tüm paketlerin yüklü olduğundan emin olun:
+2. **Install Dependencies 📦**: Ensure all required packages are installed:
 
 ```
 flutter pub get
 ```
 
-3. **Uygulamayı Çalıştırın 🚀**: Uygulamayı tercih ettiğiniz simülatör veya cihazda başlatın:
+3. **Run the Application 🚀**: Start the app on your preferred simulator or device:
 
 ```
 flutter run
 ```
 
-## Araçlar ve Teknolojiler 🛠️
+## Tools and Technologies 🛠️
 
-Bu projeyi oluşturmak için aşağıdaki araç ve teknolojiler kullanılmıştır:
+The following tools and technologies are used to build this project:
 
-* **Flutter 🐦**: Güzel, yerel olarak derlenmiş uygulamalar oluşturmak için bir UI toolkit.
-* **Dart 💻**: Flutter projeleri için kullanılan, ifade gücü yüksek ve verimli kod yazmayı sağlayan programlama dili.
-* **Provider 🌐**: Uygulama geliştirmeyi basitleştiren bir durum yönetimi kütüphanesi.
-* **Shared Preferences 💾**: Kullanıcı verilerini yerel olarak depolayarak, tercihleri hatırlayarak kullanıcı deneyimini geliştirmek için.
+* **Flutter 🐦**: A UI toolkit for crafting beautiful, natively compiled applications.
+* **Dart 💻**: The programming language used for Flutter projects, offering expressive and efficient code writing.
+* **Provider 🌐**: A state management library that simplifies app development.
+* **Shared Preferences 💾**: For storing user data locally, enhancing the user experience by remembering preferences.
 
-## Önemli Notlar 📝
+## Important Notes 📝
 
-Finder App şu anda prototip aşamasındadır 🚧. Görsel ve etkileşim tasarımı yönlerine odaklanarak, eksiksiz bir arkadaşlık uygulaması için temel oluşturur. Backend entegrasyonu ve ek özellikler, yeteneklerini geliştirmek için uygulanabilir. İşlevselliğini genişletmeye yönelik katkılar sıcak bir şekilde teşvik edilir 🤝.
+Finder App is currently in its prototype stage 🚧. It serves as a foundation for a complete dating application, focusing primarily on the visual and interaction design aspects. Backend integration and additional features can be implemented to enhance its capabilities. Contributions to expand its functionality are warmly encouraged 🤝.
 
-## Nasıl Katkıda Bulunulur 🤝
+## How to Contribute 🤝
 
-Katkılar bu projenin büyümesi ve gelişmesi için çok önemlidir. Katkıda bulunmak için şu adımları izleyin:
+Contributions are essential to the growth and evolution of this project. To contribute, follow these steps:
 
-1. **Depoyu Fork'layın 🍴**: GitHub hesabınızda deponun bir kopyasını oluşturun.
-2. **Yeni Bir Dal Oluşturun 🌱**: Özelliğiniz veya hata düzeltmeniz üzerinde özel bir dalda çalışın:
+1. **Fork the Repository 🍴**: Create a copy of the repository in your GitHub account.
+2. **Create a New Branch 🌱**: Work on your feature or bug fix in a dedicated branch:
 
 ```
 git checkout -b new-feature
 ```
 
-3. **Değişikliklerinizi Commit'leyin 📜**: Çalışmanızı anlamlı bir commit mesajı ile kaydedin:
+3. **Commit Your Changes 📜**: Save your work with a meaningful commit message:
 
 ```
 git commit -m "Added a new feature"
 ```
 
-4. **Dalınızı Push'layın 🚀**: Değişikliklerinizi GitHub'a yükleyin:
+4. **Push Your Branch 🚀**: Upload your changes to GitHub:
 
 ```
 git push origin new-feature
 ```
 
-5. **Pull Request Açın 🔍**: Değişikliklerinizin ana dala birleştirilmesini isteyin.
+5. **Open a Pull Request 🔍**: Request to merge your changes into the main branch.
 
-## Lisans 📜
+## License 📜
 
-Finder App açık kaynaklıdır ve kullanım ve dağıtım için serbestçe kullanılabilir 💡. Hiçbir kısıtlama yoktur, bu projeyi keşfetmekte, değiştirmekte ve paylaşmakta özgürsünüz.
+Finder App is open-source and freely available for use and distribution 💡. There are no restrictions, so feel free to explore, modify, and share this project.
 
-**Geliştirici 👨‍💻**: Şahan Hasret
+**Developer 👨‍💻**: Şahan Hasret
 
-Finder App 💕 ile kullanıcılar anlamlı bağlantılara 🌍 bir adım daha yakındır. Katkılarınız bu projenin tam potansiyeline ulaşmasına yardımcı olabilir!
+With Finder App 💕, users are one step closer to meaningful connections 🌍. Your contributions can help this project reach its full potential!
